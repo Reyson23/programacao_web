@@ -1,0 +1,31 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.main-container {
+    display: grid;
+    grid-template-columns: 20em 2fr 20em;
+    gap: 30px;
+    width: 100%;
+    margin: 0px 20px 0px 20px;
+}
+
+.left-bar,
+.right-bar,
+main {
+    text-align: justify;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 20px;
+}
